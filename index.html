@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>CSV File Upload Tool</title>
+	</head>
+
+	<body>
+		<h2
+			class=""
+			style="
+				font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+			"
+		>
+			Import CSV File
+		</h2>
+
+		<form
+			action="/import-csv"
+			method="post"
+			enctype="multipart/form-data"
+			style="display: flex"
+		>
+			<div class="mb-3">
+				<input
+					style="padding: 2px; margin: 2px"
+					name="file"
+					accept="csv"
+                    type="file"
+				/>
+			</div>
+
+			<div class="d-grid">
+				<input type="submit" style="padding: 2px; margin: 2px" value="Store File" />
+			</div>
+		</form>
+	</body>
+</html>
