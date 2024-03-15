@@ -9,3 +9,7 @@ I'm not sure about the handling of different file sizes to make sure not to scal
 The sample csv file can be found in root directory under the name `file.csv`
 
 I've also added the console.log when a new order is added to database.
+
+To start the project:
+`npm install`
+`npm run dev`
